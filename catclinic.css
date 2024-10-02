@@ -1,0 +1,65 @@
+/* Figaro Cat Clinic SAMPLE CSS */
+/* Rev: CF, AC, ?your name here? */
+
+* { box-sizing: border-box; }
+header, nav, main, footer { display: block; }
+body { background-color: #5280C5;
+     background-image: url(gradientblue.jpg); 
+      color: #003366 ;
+	  font-family: Verdana, Arial, sans-serif;
+}
+header { background-color: #000066;
+       
+	   background-image: url(kittens.gif);
+	   background-repeat: no-repeat;
+	   background-position: center;
+	   text-align: center;
+}
+h1 { line-height: 250%;
+ 	margin-bottom: 0;
+	font-size: 3em;
+	padding: .2em;
+	text-shadow: 3px 3px 3px #CCCCCC;
+
+}
+nav { font-weight: bold;  
+     padding: 5px;
+	 float: left;
+	 width: 180px;
+}
+nav ul { list-style-type: none; }
+nav a { text-decoration: none; }
+nav a:link { color: #000066; }
+nav a:visited { color: #5280C5; }
+nav a:hover { color: #3262A3; } 
+.category { font-weight: bold;
+			color: #5280C5;
+			 font-family: Georgia, "Times New Roman", serif; 
+			 text-shadow: 1px 1px #667;
+}
+img { border-style: none; }
+dt { font-weight: bold;
+     font-size: 1.1em;
+	 color: #5280C5;
+     font-family: Georgia, "Times New Roman", serif;	 
+}
+main { padding-left: 2em;
+      padding-right: 2em;
+	  margin-left: 180px;
+	  background-color: ##f540da; /*UPDATE?: should be WHITE - forgot the code */
+	 border: 1px solid #AEC3E3;
+
+}
+footer { font-size: .70em;
+       font-style: italic;
+	   text-align: center;
+	   background-color: #AEC3E3;
+	   margin-left: 180px;
+	   padding: 1em;
+}
+#wrapper { width: 80%;
+           margin-right: auto;
+		   margin-left: auto;
+		   background-color: #F0F0F0;
+		   min-width: 700px;
+}
