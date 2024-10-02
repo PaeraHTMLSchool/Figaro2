@@ -46,7 +46,7 @@ dt { font-weight: bold;
 main { padding-left: 2em;
       padding-right: 2em;
 	  margin-left: 180px;
-	  background-color: ##f540da; /*UPDATE?: should be WHITE - forgot the code */
+	  background-color: #f540da; /*UPDATE?: should be WHITE - forgot the code */
 	 border: 1px solid #AEC3E3;
 
 }
