@@ -46,7 +46,8 @@ dt { font-weight: bold;
 main { padding-left: 2em;
       padding-right: 2em;
 	  margin-left: 180px;
-	  background-color: #f540da; /*UPDATE?: should be WHITE - forgot the code */
+	  background-color: #ffffff; /*UPDATE?: should be WHITE - forgot the code */
+	  							   /* fixed */
 	 border: 1px solid #AEC3E3;
 
 }
@@ -62,4 +63,13 @@ footer { font-size: .70em;
 		   margin-left: auto;
 		   background-color: #F0F0F0;
 		   min-width: 700px;
+}
+#mobile{
+	display: none;	
+}
+#desktop{
+	display: inline;
+}
+@media only screen and (max-width: 1024px) { 
+	
 }
