@@ -84,6 +84,25 @@ footer { font-size: .70em;
 	}
 	h1{
 		margin: 0;
-		
+		font-size: 1.8em;
+		line-height: 200%;
+	}
+	nav{
+		float: none;
+		width: auto;
+	}
+	nav li{
+		display: inline-block;
+	}
+	nav a{
+		padding: 1em;
+		font-size: 1.2em;
+	}
+	nav ul{
+		padding: 0;
+		margin: 0;
+	}
+	main{
+		font-size: 90%;
 	}
 }
