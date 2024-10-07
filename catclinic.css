@@ -125,7 +125,25 @@ footer { font-size: .70em;
 		display: block;
 		padding: 0.2em;
 		font-size: 1.3em;
-		border-bottom: solid 10px #330000;
+		border-bottom: solid 1px #330000;
 		border-color: #330000;
+	}
+	nav li{
+		display: block;
+	}
+	nav ul{
+		text-align: left;
+	}
+	main{
+		padding-left: 1em;
+	}
+	.category{
+		text-shadow: none;
+	}
+	#mobile { 
+		display: inline; 
+	}
+	#desktop { 
+		display: none;
 	}
 }
