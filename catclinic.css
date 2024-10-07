@@ -125,7 +125,7 @@ footer { font-size: .70em;
 		display: block;
 		padding: 0.2em;
 		font-size: 1.3em;
-		border-bottom: 1px #330000;
+		border-bottom: solid 10px #330000;
 		border-color: #330000;
 	}
 }
