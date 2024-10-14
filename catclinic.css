@@ -147,3 +147,11 @@ footer { font-size: .70em;
 		display: none;
 	}
 }
+table{
+	border: solid darkblue 2px;
+	border-collapse: collapse;
+}
+td, th{
+	padding: 0.5em;
+	border: solid darkblue 1px;
+}
