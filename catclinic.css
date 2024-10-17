@@ -155,3 +155,17 @@ td, th{
 	padding: 0.5em;
 	border: solid darkblue 1px;
 }
+label{
+	float: left;
+	display: block;
+	text-align: right;
+	width: 10em;
+	padding-right: 1em;
+}
+textarea, input{
+	display: block;
+	margin-bottom: 1em;
+}
+#mySubmit{
+	margin-left: 9.5em;
+}
